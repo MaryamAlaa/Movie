@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MovieDb</string>
+    <string name="BASE_URL">https://api.themoviedb.org/3/discover/</string>
+    <string name="query">popularity.desc</string>
+    <string name="story">story</string>
+    <string name="rate">rate</string>
+    <string name="image">img</string>
+
+</resources>

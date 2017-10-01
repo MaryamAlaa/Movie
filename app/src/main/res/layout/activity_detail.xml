@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/movieRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(9.9/10)"
+        android:textColor="#7b7b7b"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/movieStory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Desc"
+        android:textColor="#a1a1a1"
+        android:textSize="16sp" />
+    <ImageView
+        android:id="@+id/photo"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
